@@ -1,0 +1,27 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  .post {
+    /* background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    transition: transform 100ms ease-in-out;
+    border-radius: 39px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  28px 28px 67px #bebebe,
+                -28px -28px 67px #ffffff;
+  }
+  
+  .post:hover {
+    transform: scale(1.05);
+  }
+  
+  .post-content {
+    padding: 30px;
+  }
+  
+  .post img {
+    max-width: 100%;
+  }
